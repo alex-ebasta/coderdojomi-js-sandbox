@@ -1,0 +1,72 @@
+canvas{
+    border: 1px dotted;
+    border-width: 2px;
+    background-color: #fff;
+    color: #333;
+}
+
+body{
+    background-color: #E5EDFF;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.help{
+    display: none;
+}
+
+#help-links{
+}
+
+#help-container{
+    position: absolute;
+    left: 840px;
+    top: 0;
+}
+
+#code{
+    position: absolute;
+    left: 420px;
+    top: 0;
+}
+
+#code textarea{
+    width: 400px;
+    min-height: 300px;
+    border-color: #F8D000;
+    border-width: 2px;
+}
+
+a#esegui{
+    text-decoration: none;
+    color: #444;
+    display: inline-block;
+    padding: 8px 8px;
+    background-color: #F8D000;
+    border-radius: 4px;
+}
+
+a#esegui:hover{
+    background-color: #ffe76c
+}
+
+a#esegui span:before{
+    content: '';
+    width: 0;
+    height:0;
+    border-style: solid;
+    border-width: 8px 0 8px 12px;
+    border-color: transparent transparent transparent #444;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+
+em{
+    color: #ff2727;
+}
+
+.error{
+    color: red;
+    padding-top: 10px;
+}

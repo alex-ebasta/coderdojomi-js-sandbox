@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link href="css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<title></title>
+</head>
+<body>  
+<h3>Canvas:</h3>
+<canvas id="canvas" width="400" height="400"></canvas>
+
+<div id="code">
+    <div>
+        <h3>Editor:</h3>
+        <textarea name="codice" id="codice"></textarea>
+        <div><a href="#" id="esegui"><span>Esegui codice</span></a></div>
+        <div class="error"></div>
+    </div>
+</div>
+
+<!-- tag html per la guida: -->
+<div id="help-container" >
+    <div id="help-links">
+        <h3>Help:</h3>
+        <ul>
+            <li>
+            <a href="#" class="help-link" data-ref="linea">linea</a>
+            </li>
+            <li>
+            <a href="#" class="help-link" data-ref="rettangolo">rettangolo</a>
+            </li>
+            <li>
+            <a href="#" class="help-link" data-ref="svuota">svuota area</a>
+            </li>
+            <li>
+            <a href="#" class="help-link" data-ref="testo">testo</a>
+            </li>
+        </ul>
+    </div>
+    <div id="rettangolo" class="help">
+        <strong>rettangolo:</strong>
+        <div>c.beginPath</div>
+        <div>c.rect(<em>x</em>, <em>y</em>, <em>larghezza</em>, <em>altezza</em>);</div>
+        <div>c.fillStyle = <em>colore</em>;</div>
+        <div>c.fill();</div>
+    </div>
+    <div id="linea" class="help">
+        <strong>linea:</strong>
+        <div>c.beginPath();</div>
+        <div>c.moveTo(<em>x</em>, <em>y</em>);</div>
+        <div>c.lineTo(<em>x</em>, <em>y</em>);</div>
+        <div>c.lineWidth = <em>spessoreLinea</em>;</div>
+        <div>c.strokeStyle = <em>color</em>;</div>
+        <div>c.stroke();</div>
+    </div>
+    <div id="testo" class="help">
+        <strong>testo:</strong>
+        <div>context.font = '40pt arial';</div>
+        <div>context.fillStyle = <em>colore</em>;</div>
+        <div>context.fillText(<em>testo</em>, <em>x</em>, <em>y</em>);</div>
+    </div>
+    <div id="svuota" class="help">
+        <strong>svuota area:</strong>
+        <div>c.clearRect(0, 0, canvas.width, canvas.height);</div>
+    </div>
+</div>
+<script type="text/javascript" src="js/canvas.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
