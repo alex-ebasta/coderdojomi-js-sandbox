@@ -4,13 +4,18 @@ coderdojomi-js-sandbox
 Una semplice pagina dove lanciare comandi javascript senza usare editor esterni e/o ricaricare la pagina.
 
 Non una vera e propria sandbox..
+
 Codice sviluppato di fretta e da non prendere come esempio di programmazione
-visto l'uso di variabili globali e della funzione eval()..
+visto l'uso di variabili globali che fa nonchè della funzione eval()..
 
 Istallazione:
-lanciare il comando
+-----------------
+lanciare il comando:
+
 git clone https://github.com/alex-ebasta/coderdojomi-js-sandbox.git
+
 o scaricare come zip.
 
 aprire con un browser il file index.html
+
 enjoy
