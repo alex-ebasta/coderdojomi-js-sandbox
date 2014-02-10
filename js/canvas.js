@@ -18,6 +18,10 @@ $(function(){
         var code = $("#codice").val();
         runCode(code);
     });
+
+    $("#empty-canvas").click(function(){
+       c.clearRect(0, 0, canvas.width, canvas.height); 
+    })
 });
 
 function showHelp(id){
