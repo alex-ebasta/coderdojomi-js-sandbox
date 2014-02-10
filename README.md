@@ -3,10 +3,10 @@ coderdojomi-js-sandbox
 
 Una semplice pagina dove lanciare comandi javascript senza usare editor esterni e/o ricaricare la pagina.
 
-Non una vera e propria sandbox..
+Non una vera e propria sandbox, creata per la didattica Javascript del CoderDojo Milano
 
 Codice sviluppato di fretta e da non prendere come esempio di programmazione
-visto l'uso di variabili globali che fa nonchè della funzione eval()..
+visto l'uso di variabili globali nonchè della funzione eval()..
 
 Istallazione:
 -----------------
